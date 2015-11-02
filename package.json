@@ -1,0 +1,19 @@
+{
+  "name": "luxury",
+  "version": "0.0.1",
+  "description": "Placeholder",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjin-me/luxury.git"
+  },
+  "author": "HJin_me",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hjin-me/luxury/issues"
+  },
+  "homepage": "https://github.com/hjin-me/luxury#readme"
+}
