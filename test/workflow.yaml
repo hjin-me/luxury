@@ -1,0 +1,8 @@
+start:
+    OK: step2
+    NOPE: step3
+step2:
+    OK: step4
+    NOPE: end
+step3:
+    OK: end

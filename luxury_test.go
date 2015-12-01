@@ -9,7 +9,7 @@ import (
 )
 
 func TestWorkflow(t *testing.T) {
-	testConf, err := filepath.Abs("../../test/workflow.yaml")
+	testConf, err := filepath.Abs("./test/workflow.yaml")
 	if err != nil {
 		t.Fatal(err)
 	}
@@ -47,7 +47,7 @@ func TestWorkflow(t *testing.T) {
 }
 
 func TestContextValueChange(t *testing.T) {
-	testConf, err := filepath.Abs("../../test/workflow.yaml")
+	testConf, err := filepath.Abs("./test/workflow.yaml")
 	if err != nil {
 		t.Fatal(err)
 	}
