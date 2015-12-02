@@ -1,10 +1,10 @@
 package luxury
 
 import (
-	"logex"
 	"net/http"
 	"reflect"
 
+	"github.com/hjin-me/luxury/logex"
 	"golang.org/x/net/context"
 )
 

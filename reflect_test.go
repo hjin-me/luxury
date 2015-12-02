@@ -3,9 +3,10 @@ package luxury
 import (
 	"bytes"
 	"errors"
-	"logex"
 	"strings"
 	"testing"
+
+	"github.com/hjin-me/luxury/logex"
 
 	"golang.org/x/net/context"
 )

@@ -1,9 +1,10 @@
 package config
 
 import (
-	"file"
 	"path/filepath"
 	"reflect"
+
+	"github.com/hjin-me/luxury/file"
 
 	"gopkg.in/yaml.v2"
 )

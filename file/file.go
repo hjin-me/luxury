@@ -3,10 +3,11 @@ package file
 import (
 	"errors"
 	"io/ioutil"
-	"logex"
 	"os"
 	"sync"
 	"time"
+
+	"github.com/hjin-me/luxury/logex"
 
 	"golang.org/x/net/context"
 )

@@ -1,10 +1,12 @@
 package luxury
 
 import (
-	"config"
 	"errors"
-	"logex"
 	"sync/atomic"
+
+	"github.com/hjin-me/luxury/logex"
+
+	"github.com/hjin-me/luxury/config"
 
 	"golang.org/x/net/context"
 )
