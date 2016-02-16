@@ -14,6 +14,7 @@ import (
 
 var (
 	baseDir string
+	envDir  string = os.Getenv("HPATH")
 )
 
 func SetBaseDir(dir string) {
@@ -51,10 +52,12 @@ func Load(filename string) (outerFile File, outerErr error) {
 		case filename = <-absFilepath(ctx, filename):
 		case filename = <-relativeFilepath(ctx, pwd, filename):
 		case filename = <-relativeFilepath(ctx, baseDir, filename):
+		case filename = <-relativeFilepath(ctx, envDir, filename):
 		case <-ctx.Done():
 			outerErr = errors.New("cant find file [" + filename + "]")
 			return
 		}
+
 		logex.Debug(filename)
 		f, err := os.Open(filename)
 		if err != nil {
