@@ -4,8 +4,9 @@ import (
 	"net/http"
 	"reflect"
 
+	"context"
+
 	"github.com/hjin-me/luxury/logex"
-	"golang.org/x/net/context"
 )
 
 type formatAgent func(context.Context) (context.Context, string, error)

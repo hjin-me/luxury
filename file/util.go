@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"golang.org/x/net/context"
+	"context"
 )
 
 func absFilepath(ctx context.Context, filename string) <-chan string {

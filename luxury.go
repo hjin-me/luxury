@@ -8,7 +8,7 @@ import (
 
 	"github.com/hjin-me/luxury/config"
 
-	"golang.org/x/net/context"
+	"context"
 )
 
 type Duty map[string]string

@@ -1,6 +1,6 @@
 package luxury
 
-import "golang.org/x/net/context"
+import "context"
 
 var (
 	agentPool = make(map[string]formatAgent)

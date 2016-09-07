@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"golang.org/x/net/context"
+	"context"
 )
 
 func TestWorkflow(t *testing.T) {
